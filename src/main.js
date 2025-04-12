@@ -13,9 +13,9 @@ const options = {
 }
 
 const poseImages = {
-    'left': './armStretchLeft.png',
-    'right': './armStretchRight.png',
-    'up': './armsStretchUp.png'
+    'left': './public/armStretchLeft.png',
+    'right': './public/armStretchRight.png',
+    'up': './public/armsStretchUp.png'
 }
 
 const poses = [
