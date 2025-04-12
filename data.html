@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="src/style.css">
+    <script type="module" src="./src/Collect.js" defer></script>
+    <script src="https://unpkg.com/ml5@1/dist/ml5.min.js"></script>
+</head>
+<body>
+<button id="webcamButton">Start Webcam</button>
+<button id="saveButton">Save JSON</button>
+
+<div id="videoFlex">
+    <div class="videoView">
+        <video id="webcam" autoplay muted playsinline style="display: block"></video>
+        <canvas id="output_canvas"></canvas>
+    </div>
+</div>
+</body>
+</html>
